@@ -1,6 +1,5 @@
 """
-Задание №4
-Реализуйте функцию error_process(f, code) которая вызывает функцию f от аргумента code.
+Реализуем функцию error_process(f, code) которая вызывает функцию f от аргумента code.
 При вызове функции f возможны исключения.
 Функция error_process должна возвращать следующие значения:
 
@@ -58,4 +57,5 @@ print(error_process(internal_f, 0)) # Ошибка значения переме
 print(error_process(internal_f, 1)) # Ошибка типа данных
 print(error_process(internal_f, 2)) # Ошибка вычислений
 print(error_process(internal_f, 3)) # Общая ошибка
+
 print(error_process(internal_f, 5)) # True
