@@ -1,8 +1,7 @@
 """
-Задание №3
-Разработайте класс TrafficLight который бы имел конструктор по умолчанию,
-свойство light - которое возвращало бы один из возможных цвет светофора в виде строки ["RED", "YELLOW", "GREEN"],
-а так же метод change() который бы изменял цвет светофора согласно алгоритму:
+Разработка класса TrafficLight, который будет иметь конструктор по умолчанию,
+свойство light - возвращающее один из возможных цвет светофора в виде строки ["RED", "YELLOW", "GREEN"],
+а так же метод change() изменяющий цвет светофора согласно алгоритму:
 RED => YELLOW => GREEN
 GREEN => YELLOW => RED
 
@@ -66,4 +65,5 @@ print(trf_light.light) # RED
 trf_light.change()
 print(trf_light.light) # YELLOW
 trf_light.change()
+
 print(trf_light.light) # GREEN
